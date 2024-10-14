@@ -1,0 +1,63 @@
+{% extends 'home/base.html' %}
+{% block content %}
+
+    <!-- Display success or error messages -->
+    {% if messages %}
+    <ul class="messages alert alert-success">
+        {% for message in messages %}
+            <li class="{{ message.tags }}">{{ message }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+    <section class="contact-section pt-130 pb-130" style="background-color: #f9f9f9; width: 100%;">
+        <div class="container-fluid">
+            <div class="row gy-lg-0 gy-5 justify-content-center">
+
+                <!-- Contact details -->
+                <div class="col-lg-8 col-md-10">
+                    <div class="contact-content card p-4 shadow-sm">
+                        <h3 class="title mb-4 text-center">Contact Us</h3>
+
+                        <div class="contact-list">
+                            <div class="list-item d-flex align-items-center mb-3">
+                                <div class="icon mr-3">
+                                    <i class="fa-sharp fa-solid fa-phone fa-2x text-primary"></i>
+                                </div>
+                                <div class="content">
+                                    <h5 class="mb-0">Phone Number</h5>
+                                    <span><a href="tel:+2347076877617" class="text-muted">(+234) 707687 - 7617</a></span>
+                                </div>
+                            </div>
+
+                            <div class="list-item d-flex align-items-center mb-3">
+                                <div class="icon mr-3">
+                                    <i class="fa-solid fa-envelope fa-2x text-primary"></i>
+                                </div>
+                                <div class="content">
+                                    <h5 class="mb-0">Email Address</h5>
+                                    <span><a href="mailto:glittesenterprise@gmail.com" class="text-muted">glittesenterprise@gmail.com</a></span>
+                                </div>
+                            </div>
+
+                            <hr />
+
+                            <!-- Social Media Links -->
+                            <div class="social-links d-flex align-items-center justify-content-center mt-3">
+                                <span class="mr-3"><strong>Follow Us:</strong></span>
+                                <a href="https://www.instagram.com/glittesenterprise?igsh=ZGUzMzM3NWJiOQ==" target="_blank" class="mr-3" title="Instagram">
+                                    <i class="fa-brands fa-instagram fa-2x text-danger"></i>
+                                </a>
+                                <a href="https://www.facebook.com/profile.php?id=100068373492530&mibextid=ZbWKwL" target="_blank" title="Facebook">
+                                    <i class="fa-brands fa-facebook fa-2x text-primary"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+{% endblock %}

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+
+        <!-- Site Title -->
+        <title>Glitte's Enterprise</title>
+
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="shortcut icon" type="image/x-icon" href="https://s3.tebi.io/glittesenterprise/assets/img/favicon.png">
+
+        <!-- CSS here -->
+        <link rel="stylesheet" href="https://s3.tebi.io/glittesenterprise/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://s3.tebi.io/glittesenterprise/assets/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://s3.tebi.io/glittesenterprise/assets/css/venobox.min.css">
+        <link rel="stylesheet" href="https://s3.tebi.io/glittesenterprise/assets/css/animate.min.css">
+        <link rel="stylesheet" href="https://s3.tebi.io/glittesenterprise/assets/css/keyframe-animation.css">
+        <link rel="stylesheet" href="https://s3.tebi.io/glittesenterprise/assets/css/daterangepicker.css">
+        <link rel="stylesheet" href="https://s3.tebi.io/glittesenterprise/assets/css/odometer.min.css">
+        <link rel="stylesheet" href="https://s3.tebi.io/glittesenterprise/assets/css/nice-select.css">
+        <link rel="stylesheet" href="https://s3.tebi.io/glittesenterprise/assets/css/swiper.min.css">
+        <link rel="stylesheet" href="https://s3.tebi.io/glittesenterprise/assets/css/main.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!-- header-area-start -->
+        <header class="header header-2 sticky-active">
+            <div class="top-bar">
+                <div class="container-2">
+                    <div class="top-bar-inner">
+                    </div>
+                </div>
+            </div>
+            <div class="middle-header">
+                <div class="container-2">
+                    <div class="middle-header-inner">
+                        <div class="header-logo">
+                            <a href="{% url 'home' %}">
+                                <img src="https://s3.tebi.io/glittesenterprise/assets/css/logo_1.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="header-items-wrap">
+                            <div class="header-item">
+                                <div class="icon"><i class="fa-sharp fa-solid fa-phone"></i></div>
+                                <div class="content">
+                                    <span>Call Us 24/7</span>
+                                    <a href="tel:+2347076877617">(+234) 70768 77617</a>
+                                </div>
+                            </div>
+                            <div class="header-item">
+                                <div class="icon"><i class="fa-sharp fa-solid fa-envelope"></i></div>
+                                <div class="content">
+                                    <span>Mail For Support</span>
+                                    <a href="mailto:glittesenterprise@gmail.com ">glittesenterprise@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="primary-header">
+                <div class="container-2">
+                    <div class="primary-header-inner">
+                        <div class="header-logo d-lg-none">
+                            <a href="{% url 'home' %}">
+                                <img src="https://s3.tebi.io/glittesenterprise/assets/css/logo_1.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="header-menu-wrap">
+                            <div class="mobile-menu-items">
+                                <ul>
+                                    <li class="menu-item-has-children active">
+                                        <a href="{% url 'home' %}">Home</a>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="{% url 'service' %}">Services</a>
+                                    </li>
+                                    <li><a href="{% url 'contact' %}">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- /.header-menu-wrap -->
+                        <div class="header-right-wrap">
+                            <div class="header-right">
+                                <a href="{% url 'contact' %}" class="header-btn">Book Appointment</a>
+                                <div class="sidebar-icon">
+                                    <button class="sidebar-trigger open">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- /.header-right -->
+                        </div>
+                    </div>
+                    <!-- /.primary-header-inner -->
+                </div>
+            </div>
+        </header>
+        <!-- /.Main Header -->
+
+        <div id="popup-search-box">
+            <div class="box-inner-wrap d-flex align-items-center">
+                <form id="form" action="#" method="get" role="search">
+                    <input id="popup-search" type="text" name="s" placeholder="Type keywords here...">
+                </form>
+                <div class="search-close"><i class="fa-sharp fa-regular fa-xmark"></i></div>
+            </div>
+        </div>
+        <!-- /#popup-search-box -->
+        <div id="sidebar-area" class="sidebar-area">
+            <button class="sidebar-trigger close">
+                <svg
+                    class="sidebar-close"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    x="0px"
+                    y="0px"
+                    width="16px"
+                    height="12.7px"
+                    viewBox="0 0 16 12.7"
+                    style="enable-background: new 0 0 16 12.7"
+                    xml:space="preserve"
+                >
+                    <g>
+                        <rect
+                            x="0"
+                            y="5.4"
+                            transform="matrix(0.7071 -0.7071 0.7071 0.7071 -2.1569 7.5208)"
+                            width="16"
+                            height="2"
+                        ></rect>
+                        <rect
+                            x="0"
+                            y="5.4"
+                            transform="matrix(0.7071 0.7071 -0.7071 0.7071 6.8431 -3.7929)"
+                            width="16"
+                            height="2"
+                        ></rect>
+                    </g>
+                </svg>
+            </button>
+            <div class="side-menu-content">
+                <div class="side-menu-logo">
+                    <a href="{% url 'home' %}"><img src="https://s3.tebi.io/glittesenterprise/assets/css/logo_1.png" alt="logo"></a>
+                </div>
+                <div class="side-menu-wrap"></div>
+                <div class="side-menu-about">
+                    <div class="side-menu-header">
+                        <h3>About Us</h3>
+                    </div>
+                    <p>At Glitte's Enterprise, we recognize the importance of exceptional content in setting individuals and businesses at cutting edges. Well-written, error-free works are essential for making one stand out in applications, presentations, and publications. We don't just deliver satisfactory results – we strive for excellence.
+                    </p>
+                    <a href="{% url 'contact' %}" class="bz-primary-btn">Contact Us</a>
+                </div>
+                <div class="side-menu-contact">
+                    <div class="side-menu-header">
+                        <h3>Contact Us</h3>
+                    </div>
+                    <ul class="side-menu-list">
+                        <li>
+                            <p>Your Success is our very Essence.</p>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+2347076877617">(+234) 707687-7617</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope-open-text"></i>
+                            <a href="mailto:glittesenterprise@gmail.com">glittesenterprise@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="side-menu-social">
+                    <li class="facebook"><a href="https://www.facebook.com/profile.php?id=100068373492530&mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="instagram"><a href="https://www.instagram.com/glittesenterprise?igsh=ZGUzMzM3NWJiOQ=="><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!--/.sidebar-area-->
+
+        <div id="preloader">
+            <div class="loading" data-loading-text="Glitte's Enterprise"></div>
+        </div>
+        <!-- ./ preloader -->
+{% block content %}
+{% endblock %}
+<footer class="footer-section footer-2 overflow-hidden">
+    <div class="shapes">
+        <div class="shape shape-1"><img src="https://s3.tebi.io/glittesenterprise/assets/img/shapes/footer-shape-1.png" alt="footer"></div>
+        <div class="shape shape-2"><img src="https://s3.tebi.io/glittesenterprise/assets/img/shapes/footer-shape-2.png" alt="footer"></div>
+        <div class="shape shape-3"><img src="https://s3.tebi.io/glittesenterprise/assets/img/shapes/footer-shape-3.png" alt="footer"></div>
+    </div>
+    <div class="container-2">
+        <div class="row footer-wrap">
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-widget">
+                    <div class="widget-header">
+                        <div class="footer-logo">
+                            <a href="{% url 'home' %}"><img src="https://s3.tebi.io/glittesenterprise/assets/css/logo_2.png" alt="img"></a>
+                        </div>
+                    </div>
+                    <p>Your Success is our very Essence.</p>
+                    <ul class="footer-social">
+                        <li><a href="https://www.facebook.com/profile.php?id=100068373492530&mibextid=ZbWKwL"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com/glittesenterprise?igsh=ZGUzMzM3NWJiOQ=="><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="copyright-area area-2">
+        <div class="container-2">
+            <div class="row copyright-content">
+                <div class="container">
+                    <p>&copy; <span id="current-year"></span> KOS TECH HUB Developers. All Rights Reserved.</p>
+                    <p><a href="mailto:info@kostechofficial@gmail.com">Contact Us</a> | <a href="#">Privacy Policy</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- ./ footer-section -->
+
+<div id="scroll-percentage"><span id="scroll-percentage-value"></span></div>
+<!--scrollup-->
+
+<!-- JS here -->
+<script src="https://s3.tebi.io/glittesenterprise/assets/js/vendor/jquary-3.6.0.min.js"></script>
+<script src="https://s3.tebi.io/glittesenterprise/assets/js/vendor/bootstrap-bundle.js"></script>
+<script src="https://s3.tebi.io/glittesenterprise/assets/js/vendor/imagesloaded-pkgd.js"></script>
+<script src="https://s3.tebi.io/glittesenterprise/assets/js/vendor/waypoints.min.js"></script>
+<script src="https://s3.tebi.io/glittesenterprise/assets/js/vendor/venobox.min.js"></script>
+<script src="https://s3.tebi.io/glittesenterprise/assets/js/vendor/odometer.min.js"></script>
+<script src="https://s3.tebi.io/glittesenterprise/assets/js/vendor/meanmenu.js"></script>
+<script src="https://s3.tebi.io/glittesenterprise/assets/js/vendor/smooth-scroll.js"></script>
+<script src="https://s3.tebi.io/glittesenterprise/assets/js/vendor/jquery.isotope.js"></script>
+<script src="https://s3.tebi.io/glittesenterprise/assets/js/vendor/wow.min.js"></script>
+<script src="https://s3.tebi.io/glittesenterprise/assets/js/vendor/swiper.min.js"></script>
+<script src="https://s3.tebi.io/glittesenterprise/assets/js/vendor/moment.min.js"></script>
+<script src="https://s3.tebi.io/glittesenterprise/assets/js/vendor/daterangepicker.min.js"></script>
+<script src="https://s3.tebi.io/glittesenterprise/assets/js/vendor/split-type.min.js"></script>
+<script src="https://s3.tebi.io/glittesenterprise/assets/js/vendor/gsap.min.js"></script>
+<script src="https://s3.tebi.io/glittesenterprise/assets/js/vendor/scroll-trigger.min.js"></script>
+<script src="https://s3.tebi.io/glittesenterprise/assets/js/vendor/nice-select.js"></script>
+<script src="https://s3.tebi.io/glittesenterprise/assets/js/slider.js"></script>
+<script src="https://s3.tebi.io/glittesenterprise/assets/js/contact.js"></script>
+<script src="https://s3.tebi.io/glittesenterprise/assets/js/main.js"></script>
+</body>
+<script>
+// JavaScript to dynamically set the current year
+document.getElementById("current-year").textContent = new Date().getFullYear();
+</script>
+</html>

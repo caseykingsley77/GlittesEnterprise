@@ -1,0 +1,286 @@
+{% extends 'home/base.html' %}
+{% block content %}
+
+
+
+        <div class="slider-section">
+            <div class="bizan-slider swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slider-item">
+                            <div class="shapes">
+                                <div class="shape shape-1" data-animation="bizan-fadeInLeft" data-delay="1000ms" data-duration="1200ms"><img src="https://s3.tebi.io/glittesenterprise/assets/img/shapes/hero-bg-shape-1.png" alt="shape"></div>
+                                <div class="shape shape-2" data-animation="bizan-fadeInUp" data-delay="1200ms" data-duration="1400ms"><img src="https://s3.tebi.io/glittesenterprise/assets/img/shapes/hero-shape-5.png" alt="shape"></div>
+                                <div class="color-shape" data-animation="bizan-fadeInUp" data-delay="1200ms" data-duration="1400ms"></div>
+                                <div class="color-shape-2"></div>
+                            </div>
+                            <div class="slide-img-wrap">
+                                <img
+                                    decoding="async"
+                                    src="https://s3.tebi.io/glittesenterprise/assets/img/bg-img/slider-img-2.jpg"
+                                    alt="Home One Business"
+                                    class="slide-img kenburns kenburns-top">
+                            </div>
+                            <div class="slider-content-wrap">
+                                <div class="container-2">
+                                    <div class="hero-content-2">
+                                        <div class="section-heading white-content mb-30">
+                                            <h4 class="sub-heading" data-animation="bizan-fadeInUp" data-delay="1000ms" data-duration="1200ms"><span class="left-shape"></span>Welcome TO Glitte's Enterprise</h4>
+                                            <h2 class="section-title" data-animation="bizan-fadeInUp" data-delay="1200ms" data-duration="1400ms">Professional<br> Writting & Design <br>Solution</h2>
+                                        </div>
+                                        <p data-animation="bizan-fadeInUp" data-delay="1400ms" data-duration="1600ms">A Top-notch writing, editing, and designing company that runs with the vision of helping corporate firms, students, entrepreneurs, and busy professionals attain success in their presentations, applications, and publications.
+
+                                        </p>
+                                        <a href="{% url 'contact' %}" class="bz-primary-btn hero-btn" data-animation="bizan-fadeInUp" data-delay="1600ms" data-duration="1800ms">Contact With Us <i class="fa-regular fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bizan-swiper-pagination"></div>
+            </div>
+        </div>
+        <!-- ./ slider-section -->
+
+        <section class="service-section-2 pt-120 pb-120">
+            <div class="container-2">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12">
+                        <div class="service-left-content sticky-widget fade-wrapper">
+                            <div class="section-heading">
+                                <h4 class="sub-heading" data-text-animation="fade-in" data-duration="1.5">
+                                    <span class="left-shape"></span>Our Services</h4>
+                                <h2 class="section-title" data-text-animation data-split="word" data-duration="1">
+                                    Professional Services <br>You Can Trust
+                                </h2>
+                                <p class="fade-top">We offer a range of professional writing, editing, and designing services tailored to meet your personal and business needs.</p>
+                            </div>
+                            <div class="service-btn-anim fade-top">
+                                <a href="{% url 'service' %}" class="bz-primary-btn">Learn more about our services</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-8 col-md-12">
+                        <div class="service-items fade-wrapper">
+                            <!-- Written Content Creation -->
+                            <div class="service-item-2 fade-top">
+                                <div class="icon">
+                                    <img src="https://s3.tebi.io/glittesenterprise/assets/img/icon/service-icon-1.png" alt="Written Content Creation Icon">
+                                </div>
+                                <div class="content">
+                                    <h3 class="title"><a href="{% url 'service' %}">Written Content Creation</a></h3>
+                                    <ul>
+                                        <li>CVs: Keyword-optimized and tailored for job and school applications within and outside of Nigeria.</li>
+                                        <li>Cover Letters</li>
+                                        <li>Articles, Advert copies</li>
+                                        <li>Business proposals</li>
+                                        <li>Seminar/PowerPoint presentations</li>
+                                        <li>LinkedIn optimization</li>
+                                        <li>Statement of Purpose, Personal Statement</li>
+                                        <li>Statement of Suitability, Personal/Company profile</li>
+                                    </ul>
+                                    <p>We work smartly to communicate your message in the best presentable written form.</p>
+                                </div>
+                            </div>
+        
+                            <!-- Editing and Proofreading -->
+                            <div class="service-item-2 fade-top">
+                                <div class="icon">
+                                    <img src="https://s3.tebi.io/glittesenterprise/assets/img/icon/service-icon-2.png" alt="Editing and Proofreading Icon">
+                                </div>
+                                <div class="content">
+                                    <h3 class="title"><a href="{% url 'service' %}">Editing and Proofreading</a></h3>
+                                    <ul>
+                                        <li>Books/Manuscripts</li>
+                                        <li>All forms of write-ups</li>
+                                    </ul>
+                                    <p><strong>Editing:</strong> We enhance the clarity and readability of your work by ensuring proper sentence construction, structure, and flow.</p>
+                                    <p><strong>Proofreading:</strong> We look out for misspellings and errors in grammar and punctuation to make sure your final copy is top-notch and ready for publication.</p>
+                                </div>
+                            </div>
+        
+                            <!-- Graphic Design -->
+                            <div class="service-item-2 fade-top">
+                                <div class="icon">
+                                    <img src="https://s3.tebi.io/glittesenterprise/assets/img/icon/service-icon-3.png" alt="Graphic Design Icon">
+                                </div>
+                                <div class="content">
+                                    <h3 class="title"><a href="{% url 'service' %}">Graphic Design</a></h3>
+                                    <ul>
+                                        <li>Flyers</li>
+                                        <li>Posters</li>
+                                        <li>Business cards</li>
+                                        <li>Magazine covers</li>
+                                    </ul>
+                                    <p>We ignite engagement by conveying your message with clarity and style through creative graphic design.</p>
+                                </div>
+                            </div>
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./ service-section -->
+
+        <section class="process-wrapper">
+            <div class="process-section">
+                <div class="shapes">
+                    <div class="shape shape-1"><img src="https://s3.tebi.io/glittesenterprise/assets/img/shapes/process-shape-1.png" alt="shape"></div>
+                    <div class="shape shape-2"><img src="https://s3.tebi.io/glittesenterprise/assets/img/shapes/process-shape-2.png" alt="shape"></div>
+                </div>
+                <div class="container-2">
+                    <div class="section-heading text-center white-content">
+                        <h4 class="sub-heading" data-text-animation="fade-in" data-duration="1.5"><span class="left-shape"></span>Our Process</h4>
+                        <h2 class="section-title" data-text-animation data-split="word" data-duration="1">How We Deliver High-Quality Results</h2>
+                    </div>
+                    <div class="row fade-wrapper process-wrap">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="process-card text-center fade-top">
+                                <div class="icon">
+                                    <img src="https://s3.tebi.io/glittesenterprise/assets/img/icon/process-1.png" alt="icon">
+                                    <span class="number">01</span>
+                                </div>
+                                <div class="content">
+                                    <h3 class="title">Consultation</h3>
+                                    <p>We start by understanding your unique needs, whether it's for CV writing, content creation, proofreading, or design.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="process-card text-center fade-top">
+                                <div class="icon">
+                                    <img src="https://s3.tebi.io/glittesenterprise/assets/img/icon/process-2.png" alt="icon">
+                                    <span class="number">02</span>
+                                </div>
+                                <div class="content">
+                                    <h3 class="title">Drafting & Review</h3>
+                                    <p>Our expert team creates the first draft of your content or design and sends it to you for review and feedback.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="process-card text-center fade-top">
+                                <div class="icon">
+                                    <img src="https://s3.tebi.io/glittesenterprise/assets/img/icon/process-3.png" alt="icon">
+                                    <span class="number">03</span>
+                                </div>
+                                <div class="content">
+                                    <h3 class="title">Refinement</h3>
+                                    <p>We revise and polish the work based on your input, ensuring it meets your expectations and is of the highest quality.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="process-card text-center fade-top">
+                                <div class="icon">
+                                    <img src="https://s3.tebi.io/glittesenterprise/assets/img/icon/process-2.png" alt="icon">
+                                    <span class="number">04</span>
+                                </div>
+                                <div class="content">
+                                    <h3 class="title">Final Delivery</h3>
+                                    <p>We deliver the completed project—whether it's a compelling CV, an engaging article, or a beautifully designed graphic—ready for use.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- FAQ Section -->
+        <section class="faq-section pt-120 pb-120">
+            <div class="container-2">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="faq-content">
+                            <div class="section-heading mb-30">
+                                <h4 class="sub-heading" data-text-animation="fade-in" data-duration="1.5"><span class="left-shape"></span>Frequently Asked Questions</h4>
+                                <h2 class="section-title mb-0" data-text-animation data-split="word" data-duration="1">Why Should You Work With Us?</h2>
+                            </div>
+                            <div class="faq-accordion fade-wrapper">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item fade-top">
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                Why should I choose your CV writing service?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                Our CV writing service is tailored to highlight your strengths and experiences. We create keyword-optimized CVs that stand out to recruiters and hiring managers.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item fade-top">
+                                        <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                What types of content do you create?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                We specialize in creating a variety of content, including blog articles, business proposals, advert copies, and seminar presentations.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item fade-top">
+                                        <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                How do you ensure quality in your editing and proofreading services?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                We meticulously review your documents for grammar, punctuation, and overall clarity, ensuring that your final copies are error-free and professional.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item fade-top">
+                                        <h2 class="accordion-header" id="headingFour">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                What graphic design services do you offer?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                We offer a full range of graphic design services, including flyers, posters, business cards, and magazine covers, all designed to elevate your brand and engage your audience.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="faq-img img-reveal">
+                            <div class="img-overlay"></div>
+                            <img src="https://s3.tebi.io/glittesenterprise/assets/img/images/faq-img.png" alt="faq">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- CTA Section -->
+        <section class="cta-section pt-120 pb-120" data-background="https://s3.tebi.io/glittesenterprise/assets/img/bg-img/cta-bg.jpg">
+            <div class="overlay"></div>
+            <div class="container-2">
+                <div class="cta-wrap">
+                    <div class="cta-content">
+                        <div class="section-heading mb-0 white-content">
+                            <h4 class="sub-heading" data-text-animation="fade-in" data-duration="1.5"><span class="left-shape"></span>Book an Appointment Now</h4>
+                            <h2 class="section-title mb-0" data-text-animation data-split="word" data-duration="1">Get Professional Writing and Design Services Today!</h2>
+                        </div>
+                    </div>
+                    <div class="cta-btn-wrap">
+                        <a href="contact.html" class="bz-primary-btn">Get Our Service</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+{% endblock %}
